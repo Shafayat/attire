@@ -24,6 +24,9 @@ Attire is a fast, mobile responsive, highly customizable, SEO friendly multipurp
 
 ### Changelog
 
+#### 1.2.9 - 2019.11.15 =
+* CSS file moved from style.css to /css/attire.css
+
 #### 1.2.7 - 2019.10.18 =
 * Improved woocommerce templates
 
