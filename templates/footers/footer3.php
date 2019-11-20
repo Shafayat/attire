@@ -31,7 +31,7 @@ $content_layout = $theme_mod['footer_content_layout_type'];
 						<?php if ( isset( $theme_mod['facebook_profile_url'] ) && $theme_mod['facebook_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
                                                             href="<?php echo esc_url( $theme_mod['facebook_profile_url'] ); ?>"><i
-                                            class="fa fa-facebook"></i></a></li>
+                                            class="fab fa-facebook-f"></i></a></li>
 						<?php }
 						if ( isset( $theme_mod['instagram_profile_url'] ) && $theme_mod['instagram_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"

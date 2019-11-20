@@ -11,7 +11,7 @@ $canshow = $canshow === 'show' ? ' canshow' : '';
 
 </div> <!-- END: attire-content div -->
 <a href="#" class="back-to-top <?php echo esc_attr($canshow); ?>" rel="nofollow">
-    <i class="fa fa-angle-up"></i>
+    <i class="fas fa-angle-up"></i>
 </a>
 <?php
 $num_widget = (int)AttireThemeEngine::NextGetOption('footer_widget_number', '3');
