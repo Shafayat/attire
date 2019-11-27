@@ -113,12 +113,12 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                             </div>
                             <div class="ml-3">
                                 <?php if(function_exists('WC')){ ?>
-                                    <a href="<?php echo wc_get_cart_url(); ?>" class="btn btn-outline-gray attire-tip <?php echo WC()->cart->cart_contents_count > 0 ? 'text-success':''; ?>" title="<?php echo WC()->cart->cart_contents_count; ?> <?php echo WC()->cart->cart_contents_count > 1? __('items', 'attire'):__('item', 'attire'); ?>" ><i class="fa fa-shopping-bag"></i></a>
+                                    <a href="<?php echo wc_get_cart_url(); ?>" class="btn btn-outline-gray attire-tip <?php echo WC()->cart->cart_contents_count > 0 ? 'text-success':''; ?>" title="<?php echo WC()->cart->cart_contents_count; ?> <?php echo WC()->cart->cart_contents_count > 1? __('items', 'attire'):__('item', 'attire'); ?>" ><i class="fas fa-shopping-bag"></i></a>
                                 <?php if ( is_user_logged_in() ) { ?>
-                                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="btn btn-outline-gray attire-tip" title="<?php _e('Account','attire'); ?>"><i class="fa fa-user-circle"></i></a>
+                                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="btn btn-outline-gray attire-tip" title="<?php _e('Account','attire'); ?>"><i class="fas fa-user-circle"></i></a>
                                 <?php }
                                 else { ?>
-                                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="btn btn-outline-gray attire-tip" title="<?php _e('Login / Register','attire'); ?>"><i class="fa fa-user-circle"></i></a>
+                                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="btn btn-outline-gray attire-tip" title="<?php _e('Login / Register','attire'); ?>"><i class="fas fa-user-circle"></i></a>
                                 <?php } ?>
                                 <?php } ?>
 
@@ -134,7 +134,7 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                 <button class="col-lg-1 navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                         data-target="#header1_menu" aria-controls="header1_menu" aria-expanded="false"
                         aria-label="<?php esc_attr_e( 'Toggle navigation', 'attire' ); ?>">
-                    <span class="mobile-menu-toggle"><i class="fa fa-bars " aria-hidden="true"></i></span>
+                    <span class="mobile-menu-toggle"><i class="fas fa-bars " aria-hidden="true"></i></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="header1_menu">

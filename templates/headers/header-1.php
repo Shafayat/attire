@@ -82,7 +82,7 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                 <button class="col-lg-1 navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                         data-target="#header1_menu" aria-controls="header1_menu" aria-expanded="false"
                         aria-label="<?php esc_attr_e( 'Toggle navigation', 'attire' ); ?>">
-                    <span class="mobile-menu-toggle"><i class="fa fa-bars " aria-hidden="true"></i></span>
+                    <span class="mobile-menu-toggle"><i class="fas fa-bars " aria-hidden="true"></i></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="header1_menu">

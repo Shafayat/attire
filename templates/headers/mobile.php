@@ -2,7 +2,7 @@
 <div class="media attire-mbl-header stickable">
     <div class="mr-3">
         <a class="gn-icon gn-icon-menu attire-mbl-menu-trigger">
-            <i class="fa fa-bars"></i>
+            <i class="fas fa-bars"></i>
         </a>
     </div>
     <div class="media-body">

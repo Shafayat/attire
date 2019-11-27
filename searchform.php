@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                            value="" name="s" title="<?php esc_attr_e( 'Search for:', 'attire' ); ?>"/>
 
                     <span class="input-group-addon" id="mobile-search-icon">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <button type="submit"><i class="fas fa-search"></i></button>
                     </span>
                 </div>
             </div>
@@ -29,11 +29,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     <li class="dropdown nav-item desktop-search">
         <div class="overlay desktop-search">
             <a class="mk-search-trigger mk-fullscreen-trigger" href="#" id="search-button-listener">
-                <div id="search-button"><i class="fa fa-search"></i></div>
+                <div id="search-button"><i class="fas fa-search"></i></div>
             </a>
             <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
                 <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i
-                            class="fa fa-times"></i></a>
+                            class="fas fa-times"></i></a>
                 <div id="mk-fullscreen-search-wrapper">
                     <form class="mk-fullscreen-searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>"
                           role="search" method="get">
@@ -45,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                type="hidden">
                         <input name="post_type[]" value="post"
                                type="hidden">
-                        <i class="fa fa-search fullscreen-search-icon"><input value="" type="submit"></i>
+                        <i class="fas fa-search fullscreen-search-icon"><input value="" type="submit"></i>
                     </form>
                 </div>
             </div>

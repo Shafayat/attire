@@ -23,7 +23,7 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                         data-target="#header3_menu"
                         aria-controls="header3_menu" aria-expanded="false"
                         aria-label="<?php esc_attr_e( 'Toggle navigation', 'attire' ); ?>">
-                    <span class="mobile-menu-toggle"><i class="fa fa-bars " aria-hidden="true"></i></span>
+                    <span class="mobile-menu-toggle"><i class="fas fa-bars " aria-hidden="true"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="header3_menu">
 

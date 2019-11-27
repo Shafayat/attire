@@ -179,9 +179,9 @@ class Attire {
                                         <em class="moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'attire' ) ?></em>
 									<?php endif; ?>
                                     <div class="text-muted">
-                                        <small><?php edit_comment_link( '<i class="fa fa-pencil"></i> ' . esc_html__( 'Edit', 'attire' ), ' ' ); ?></small>
+                                        <small><?php edit_comment_link( '<i class="fas fa-pencil-alt"></i> ' . esc_html__( 'Edit', 'attire' ), ' ' ); ?></small>
                                         <small><?php comment_reply_link( array_merge( $args, array(
-												'reply_text' => '&nbsp;<i class="fa fa-refresh"></i> ' . esc_html__( 'Reply', 'attire' ),
+												'reply_text' => '&nbsp;<i class="fas fa-sync"></i> ' . esc_html__( 'Reply', 'attire' ),
 												'depth'      => $depth,
 												'max_depth'  => $args['max_depth']
 											) ) ) ?></small>

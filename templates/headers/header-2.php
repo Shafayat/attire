@@ -25,14 +25,14 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                                 endif; ?>
 								<?php if ( isset( $theme_mod['contact_email'] ) && $theme_mod['contact_email'] !== '' ) { ?>
                                     <li class="list-inline-item" title="<?php esc_attr_e( 'Email', 'attire' ); ?>"><i
-                                                class="fa fa-envelope"></i><span
+                                                class="far fa-envelope"></i><span
                                                 class="hidden-xs-up"><a
                                                     href="mailto:<?php echo esc_attr( $theme_mod['contact_email'] ); ?>"><?php echo esc_html( $theme_mod['contact_email'] ); ?></a></span>
                                     </li>
 								<?php }
 								if ( isset( $theme_mod['contact_phone'] ) && $theme_mod['contact_phone'] !== '' ) { ?>
                                     <li class="list-inline-item" title="<?php esc_attr_e( 'Hot Line', 'attire' ); ?>"><i
-                                                class="fa fa-phone-square"></i><span
+                                                class="fas fa-phone-square"></i><span
                                                 class="hidden-xs-up"><?php echo esc_html( $theme_mod['contact_phone'] ); ?></span>
                                     </li>
 								<?php } ?>
@@ -103,7 +103,7 @@ if ( isset( $theme_mod['attire_nav_behavior'] ) && $theme_mod['attire_nav_behavi
                             data-target="#header2_menu"
                             aria-controls="header2_menu" aria-expanded="false"
                             aria-label="<?php esc_attr_e( 'Toggle navigation', 'attire' ); ?>">
-                        <span class="mobile-menu-toggle"><i class="fa fa-bars " aria-hidden="true"></i></span>
+                        <span class="mobile-menu-toggle"><i class="fas fa-bars " aria-hidden="true"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="header2_menu">
 						<?php

@@ -35,28 +35,27 @@ $content_layout = $theme_mod['footer_content_layout_type'];
 						<?php }
 						if ( isset( $theme_mod['instagram_profile_url'] ) && $theme_mod['instagram_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
-                                                            href="<?php echo esc_url( $theme_mod['instagram_profile_url'] ); ?>"><i
-                                            class="fa fa-instagram"></i></a></li>
+                                                            href="<?php echo esc_url( $theme_mod['instagram_profile_url'] ); ?>">
+                                    <i class="fab fa-instagram"></i></a></li>
 						<?php }
 						if ( isset( $theme_mod['googleplus_profile_url'] ) && $theme_mod['googleplus_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
                                                             href="<?php echo esc_url( $theme_mod['googleplus_profile_url'] ); ?>"><i
-                                            class="fa fa-google-plus"></i></a></li>
+                                            class="fab fa-google-plus-g"></i></a></li>
 						<?php }
 						if ( isset( $theme_mod['twitter_profile_url'] ) && $theme_mod['twitter_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
                                                             href="<?php echo esc_url( $theme_mod['twitter_profile_url'] ); ?>"><i
-                                            class="fa fa-twitter"></i></a></li>
+                                            class="fab fa-twitter"></i></a></li>
 						<?php }
 						if ( isset( $theme_mod['pinterest_profile_url'] ) && $theme_mod['pinterest_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
                                                             href="<?php echo esc_url( $theme_mod['pinterest_profile_url'] ); ?>"><i
-                                            class="fa fa-pinterest"></i></a></li>
+                                            class="fab fa-pinterest-p"></i></a></li>
 						<?php }
 						if ( isset( $theme_mod['linkedin_profile_url'] ) && $theme_mod['linkedin_profile_url'] !== '' ) { ?>
                             <li class="list-inline-item"><a class="social-link" rel="nofollow" target="_blank"
-                                                            href="<?php echo esc_url( $theme_mod['linkedin_profile_url'] ); ?>"><i
-                                            class="fa fa-linkedin"></i></a></li>
+                                                            href="<?php echo esc_url( $theme_mod['linkedin_profile_url'] ); ?>"><i class="fab fa-linkedin-in"></i></a></li>
 						<?php } ?>
                     </ul>
 

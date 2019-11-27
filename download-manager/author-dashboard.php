@@ -23,9 +23,9 @@
             <a class="adp-item <?php if ($task == $tid) { ?>active<?php } ?>" href="<?php echo $tid != ''?sprintf("$menu_url", $tid):get_permalink(get_the_ID()); ?>"><i class="<?php echo $default_icons[$tid]; ?> mr-3"></i><?php echo $tab['label']; ?></a>
         <?php endforeach; ?>
         
-        <a class="adp-item <?php if ($task == 'edit-profile') { ?>active<?php } ?>" href="<?php echo sprintf("$menu_url", "edit-profile"); ?>"><i class="fa fa-user-edit mr-3"></i><?php _e( "Edit Profile" , "attire" ); ?></a>
+        <a class="adp-item <?php if ($task == 'edit-profile') { ?>active<?php } ?>" href="<?php echo sprintf("$menu_url", "edit-profile"); ?>"><i class="fas fa-user-edit mr-3"></i><?php _e( "Edit Profile" , "attire" ); ?></a>
 
-        <a class="adp-item <?php if ($task == 'settings') { ?>active<?php } ?>" href="<?php echo sprintf("$menu_url", "settings"); ?>"><i class="fa fa-tools mr-3"></i><?php _e( "Settings" , "attire" ); ?></a>
+        <a class="adp-item <?php if ($task == 'settings') { ?>active<?php } ?>" href="<?php echo sprintf("$menu_url", "settings"); ?>"><i class="fas fa-tools mr-3"></i><?php _e( "Settings" , "attire" ); ?></a>
         <a class="adp-item" href="<?php echo wpdm_logout_url(); ?>"><i class="fas fa-sign-out-alt color-danger mr-3"></i><?php _e( "Logout" , "attire" ); ?></a>
     </div>
 
